@@ -32,7 +32,8 @@
     </a>
     <nav class="nav__links">
       <a href="#work">Portfolio</a>
-      <a href="#director">Director</a>
+      <a href="#director">Team</a>
+      <a href="#reviews">Reviews</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -125,12 +126,78 @@
         </ul>
       </div>
     </div>
+
+    <div class="team">
+      <p class="team__label reveal">Team</p>
+      <div class="team__grid reveal">
+        <div class="team__card">
+          <div class="team__photo">
+            <img src="assets/staff-01.jpg" alt="이하늘 디자이너" loading="lazy"
+              onerror="this.closest('.team__photo').classList.add('is-empty')" />
+            <span class="team__photo-fallback" aria-hidden="true">STAFF</span>
+          </div>
+          <p class="team__name">이하늘 <span>디자이너</span></p>
+          <p class="team__role">펌 &middot; 컬러 스페셜리스트</p>
+        </div>
+        <div class="team__card">
+          <div class="team__photo">
+            <img src="assets/staff-02.jpg" alt="박서준 디자이너" loading="lazy"
+              onerror="this.closest('.team__photo').classList.add('is-empty')" />
+            <span class="team__photo-fallback" aria-hidden="true">STAFF</span>
+          </div>
+          <p class="team__name">박서준 <span>디자이너</span></p>
+          <p class="team__role">커트 전문</p>
+        </div>
+        <div class="team__card">
+          <div class="team__photo">
+            <img src="assets/staff-03.jpg" alt="정민 디자이너" loading="lazy"
+              onerror="this.closest('.team__photo').classList.add('is-empty')" />
+            <span class="team__photo-fallback" aria-hidden="true">STAFF</span>
+          </div>
+          <p class="team__name">정민 <span>디자이너</span></p>
+          <p class="team__role">스타일링 &middot; 클리닉</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section class="section reviews" id="reviews">
+    <div class="section__head reveal">
+      <p class="section__index">03 — Reviews</p>
+      <h2 class="section__title">
+        <em>Trust</em>, in their<br />own words.
+      </h2>
+    </div>
+    <div class="reviews__grid reveal">
+      <blockquote class="review">
+        <p class="review__quote">&ldquo;항상 제 스타일을 정확히 캐치해주셔서 믿고 맡겨요.&rdquo;</p>
+        <footer class="review__meta">
+          <span class="review__stars" aria-hidden="true">★★★★★</span>
+          <span class="review__author">김OO 고객님</span>
+        </footer>
+      </blockquote>
+      <blockquote class="review">
+        <p class="review__quote">&ldquo;디테일 하나하나 신경 써주시는 게 느껴져요. 매번 만족스러운 결과.&rdquo;</p>
+        <footer class="review__meta">
+          <span class="review__stars" aria-hidden="true">★★★★★</span>
+          <span class="review__author">이OO 고객님</span>
+        </footer>
+      </blockquote>
+      <blockquote class="review">
+        <p class="review__quote">&ldquo;편안한 분위기에서 상담부터 꼼꼼하게 봐주셔서 좋았습니다.&rdquo;</p>
+        <footer class="review__meta">
+          <span class="review__stars" aria-hidden="true">★★★★★</span>
+          <span class="review__author">박OO 고객님</span>
+        </footer>
+      </blockquote>
+    </div>
   </section>
 
   <!-- ============ CONTACT / CTA ============ -->
   <section class="section contact" id="contact">
     <div class="contact__inner reveal">
-      <p class="section__index section__index--light">03 — Reservation</p>
+      <p class="section__index section__index--light">04 — Reservation</p>
       <h2 class="contact__title">
         오늘의 무드를<br /><em>완성</em>하세요.
       </h2>
