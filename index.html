@@ -32,9 +32,9 @@
     </a>
     <nav class="nav__links">
       <a href="#work">Portfolio</a>
+      <a href="#contact">Book</a>
       <a href="#director">Team</a>
       <a href="#reviews">Reviews</a>
-      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -46,7 +46,6 @@
         <img src="assets/logo-mark.svg" alt="NEWEB" class="hero__title-logo" />
         <span class="hero__title-kr">성수</span>
       </h1>
-      <p class="hero__tagline">개인의 무드에 감각적인 디테일을 더해드립니다.</p>
       <div class="hero__cta">
         <a href="#contact" class="btn btn--line">예약 &amp; 상담</a>
         <a href="#work" class="btn btn--ghost">포트폴리오 보기</a>
@@ -72,30 +71,83 @@
     </div>
 
     <div class="gallery reveal">
-      <figure class="gallery__item gallery__item--tall">
-        <img src="assets/work-01.svg" alt="포트폴리오 컷 01" loading="lazy" />
-        <figcaption><span>Crop Cut</span><span>01</span></figcaption>
+      <figure class="gallery__item">
+        <img src="assets/work-01.jpg" alt="포트폴리오 컷 01" loading="lazy"
+          onerror="this.closest('.gallery__item').classList.add('is-empty')" />
+        <span class="gallery__fallback" aria-hidden="true">PORTFOLIO<br>01</span>
+        <figcaption><span>Look</span><span>01</span></figcaption>
       </figure>
       <figure class="gallery__item">
-        <img src="assets/work-02.svg" alt="포트폴리오 컷 02" loading="lazy" />
-        <figcaption><span>Textured Perm</span><span>02</span></figcaption>
+        <img src="assets/work-02.jpg" alt="포트폴리오 컷 02" loading="lazy"
+          onerror="this.closest('.gallery__item').classList.add('is-empty')" />
+        <span class="gallery__fallback" aria-hidden="true">PORTFOLIO<br>02</span>
+        <figcaption><span>Look</span><span>02</span></figcaption>
       </figure>
       <figure class="gallery__item">
-        <img src="assets/work-03.svg" alt="포트폴리오 컷 03" loading="lazy" />
-        <figcaption><span>Side Part</span><span>03</span></figcaption>
-      </figure>
-      <figure class="gallery__item gallery__item--wide">
-        <img src="assets/work-04.svg" alt="포트폴리오 컷 04" loading="lazy" />
-        <figcaption><span>Natural Down Perm</span><span>04</span></figcaption>
+        <img src="assets/work-03.jpg" alt="포트폴리오 컷 03" loading="lazy"
+          onerror="this.closest('.gallery__item').classList.add('is-empty')" />
+        <span class="gallery__fallback" aria-hidden="true">PORTFOLIO<br>03</span>
+        <figcaption><span>Look</span><span>03</span></figcaption>
       </figure>
       <figure class="gallery__item">
-        <img src="assets/work-05.svg" alt="포트폴리오 컷 05" loading="lazy" />
-        <figcaption><span>Fade &amp; Line</span><span>05</span></figcaption>
+        <img src="assets/work-04.jpg" alt="포트폴리오 컷 04" loading="lazy"
+          onerror="this.closest('.gallery__item').classList.add('is-empty')" />
+        <span class="gallery__fallback" aria-hidden="true">PORTFOLIO<br>04</span>
+        <figcaption><span>Look</span><span>04</span></figcaption>
       </figure>
-      <figure class="gallery__item gallery__item--tall">
-        <img src="assets/work-06.svg" alt="포트폴리오 컷 06" loading="lazy" />
-        <figcaption><span>Dandy Cut</span><span>06</span></figcaption>
+      <figure class="gallery__item">
+        <img src="assets/work-05.jpg" alt="포트폴리오 컷 05" loading="lazy"
+          onerror="this.closest('.gallery__item').classList.add('is-empty')" />
+        <span class="gallery__fallback" aria-hidden="true">PORTFOLIO<br>05</span>
+        <figcaption><span>Look</span><span>05</span></figcaption>
       </figure>
+      <figure class="gallery__item">
+        <img src="assets/work-06.jpg" alt="포트폴리오 컷 06" loading="lazy"
+          onerror="this.closest('.gallery__item').classList.add('is-empty')" />
+        <span class="gallery__fallback" aria-hidden="true">PORTFOLIO<br>06</span>
+        <figcaption><span>Look</span><span>06</span></figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="assets/work-07.jpg" alt="포트폴리오 컷 07" loading="lazy"
+          onerror="this.closest('.gallery__item').classList.add('is-empty')" />
+        <span class="gallery__fallback" aria-hidden="true">PORTFOLIO<br>07</span>
+        <figcaption><span>Look</span><span>07</span></figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="assets/work-08.jpg" alt="포트폴리오 컷 08" loading="lazy"
+          onerror="this.closest('.gallery__item').classList.add('is-empty')" />
+        <span class="gallery__fallback" aria-hidden="true">PORTFOLIO<br>08</span>
+        <figcaption><span>Look</span><span>08</span></figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="assets/work-09.jpg" alt="포트폴리오 컷 09" loading="lazy"
+          onerror="this.closest('.gallery__item').classList.add('is-empty')" />
+        <span class="gallery__fallback" aria-hidden="true">PORTFOLIO<br>09</span>
+        <figcaption><span>Look</span><span>09</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT / CTA ============ -->
+  <section class="section contact" id="contact">
+    <div class="contact__inner reveal">
+      <p class="section__index section__index--light">02 — Reservation</p>
+      <h2 class="contact__title">
+        오늘의 무드를<br /><em>완성</em>하세요.
+      </h2>
+      <p class="contact__desc">
+        네이버에서 원하는 시간에 바로 예약하세요.
+      </p>
+      <div class="contact__buttons">
+        <a class="cta cta--naver" href="https://naver.me/xD8nkQt6" target="_blank" rel="noopener">
+          <span class="cta__label">Naver</span>
+          <span class="cta__main">네이버 예약</span>
+        </a>
+      </div>
+      <dl class="contact__info">
+        <div><dt>Address</dt><dd>서울 성동구 상원6길 2 2층 · NEWEB 성수점</dd></div>
+        <div><dt>Hours</dt><dd>10:00 – 21:00 · 예약제 운영</dd></div>
+      </dl>
     </div>
   </section>
 
@@ -108,7 +160,7 @@
         <span class="director__photo-fallback" aria-hidden="true">강단<br>DIRECTOR</span>
       </div>
       <div class="director__body reveal">
-        <p class="section__index">02 — Director</p>
+        <p class="section__index">03 — Team</p>
         <h2 class="section__title director__name">
           강단 <span>원장</span>
         </h2>
@@ -164,7 +216,7 @@
   <!-- ============ REVIEWS ============ -->
   <section class="section reviews" id="reviews">
     <div class="section__head reveal">
-      <p class="section__index">03 — Reviews</p>
+      <p class="section__index">04 — Reviews</p>
       <h2 class="section__title">
         <em>Trust</em>, in their<br />own words.
       </h2>
@@ -191,33 +243,6 @@
           <span class="review__author">박OO 고객님</span>
         </footer>
       </blockquote>
-    </div>
-  </section>
-
-  <!-- ============ CONTACT / CTA ============ -->
-  <section class="section contact" id="contact">
-    <div class="contact__inner reveal">
-      <p class="section__index section__index--light">04 — Reservation</p>
-      <h2 class="contact__title">
-        오늘의 무드를<br /><em>완성</em>하세요.
-      </h2>
-      <p class="contact__desc">
-        카카오톡으로 편하게 문의하시거나, 네이버에서 원하는 시간에 바로 예약하세요.
-      </p>
-      <div class="contact__buttons">
-        <a class="cta cta--kakao" href="#" data-link="kakao" target="_blank" rel="noopener">
-          <span class="cta__label">KakaoTalk</span>
-          <span class="cta__main">카카오톡 상담</span>
-        </a>
-        <a class="cta cta--naver" href="#" data-link="naver" target="_blank" rel="noopener">
-          <span class="cta__label">Naver</span>
-          <span class="cta__main">네이버 예약</span>
-        </a>
-      </div>
-      <dl class="contact__info">
-        <div><dt>Address</dt><dd>서울 성동구 성수동 · NEWEB 성수점</dd></div>
-        <div><dt>Hours</dt><dd>11:00 – 21:00 · 예약제 운영</dd></div>
-      </dl>
     </div>
   </section>
 
