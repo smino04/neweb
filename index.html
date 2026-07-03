@@ -33,8 +33,7 @@
     <nav class="nav__links">
       <a href="#work">Portfolio</a>
       <a href="#contact">Book</a>
-      <a href="#director">Team</a>
-      <a href="#reviews">Reviews</a>
+      <a href="#director" id="nav-team-link">Team</a>
     </nav>
   </header>
 
@@ -151,8 +150,8 @@
     </div>
   </section>
 
-  <!-- ============ DIRECTOR ============ -->
-  <section class="section director" id="director">
+  <!-- ============ DIRECTOR (nav "Team" 클릭으로만 열리는 패널) ============ -->
+  <section class="section director team-panel" id="director">
     <div class="director__grid">
       <div class="director__photo reveal">
         <img src="assets/director.png" alt="강단 원장" loading="lazy"
@@ -210,39 +209,6 @@
           <p class="team__role">스타일링 &middot; 클리닉</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ============ REVIEWS ============ -->
-  <section class="section reviews" id="reviews">
-    <div class="section__head reveal">
-      <p class="section__index">04 — Reviews</p>
-      <h2 class="section__title">
-        <em>Trust</em>, in their<br />own words.
-      </h2>
-    </div>
-    <div class="reviews__grid reveal">
-      <blockquote class="review">
-        <p class="review__quote">&ldquo;항상 제 스타일을 정확히 캐치해주셔서 믿고 맡겨요.&rdquo;</p>
-        <footer class="review__meta">
-          <span class="review__stars" aria-hidden="true">★★★★★</span>
-          <span class="review__author">김OO 고객님</span>
-        </footer>
-      </blockquote>
-      <blockquote class="review">
-        <p class="review__quote">&ldquo;디테일 하나하나 신경 써주시는 게 느껴져요. 매번 만족스러운 결과.&rdquo;</p>
-        <footer class="review__meta">
-          <span class="review__stars" aria-hidden="true">★★★★★</span>
-          <span class="review__author">이OO 고객님</span>
-        </footer>
-      </blockquote>
-      <blockquote class="review">
-        <p class="review__quote">&ldquo;편안한 분위기에서 상담부터 꼼꼼하게 봐주셔서 좋았습니다.&rdquo;</p>
-        <footer class="review__meta">
-          <span class="review__stars" aria-hidden="true">★★★★★</span>
-          <span class="review__author">박OO 고객님</span>
-        </footer>
-      </blockquote>
     </div>
   </section>
 
